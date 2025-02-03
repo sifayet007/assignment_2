@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0 135px;
+  box-sizing: border-box;
+}
+/* ==nav section== */
+.nav-container {
+  margin: 50px;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+
+  gap: 40px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #424247;
+}
+.nav-icon-section {
+  display: flex;
+  gap: 15px;
+}
+.primary-color {
+  font-weight: bold;
+  color: #ff5400;
+}
