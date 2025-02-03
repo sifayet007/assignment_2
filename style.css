@@ -48,6 +48,7 @@ body {
   padding: 105px 185px;
   border-radius: 10px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .banner-title {
@@ -161,8 +162,62 @@ body {
 /* hotel service section */
 .hotel-service-section {
   display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.hotel-service-content {
+  text-align: center;
+  margin-top: 100px;
+}
+.hotel-service-title {
+  font-size: 5vmin;
+}
+.hotel-service-paragraph {
+  color: #858593;
+  margin-bottom: 40px;
 }
 .hotel-section {
   border: 1px solid #fbb563;
-  background-color: #fae0c1;
+  background-color: #eee6dc;
+  padding: 32px;
+  border-radius: 10px;
+  flex-basis: 50%;
+}
+.hotel-title {
+  font-size: 4vmin;
+  color: #131318;
+}
+.hotel-paragraph {
+  color: #858593;
+}
+.service-section {
+  border: 1px solid #29cef6;
+  background-color: #dbe8eb;
+  padding: 32px;
+  border-radius: 10px;
+  flex-basis: 50%;
+}
+.service-title {
+  font-size: 4vmin;
+  color: #131318;
+}
+.service-paragraph {
+  color: #858593;
+}
+.price-container {
+  background-color: #e8d5d5;
+  border: 1px solid #e94444;
+  padding: 32px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+}
+.price-title {
+  font-size: 4vmin;
+  color: #131318;
+}
+.price-paragraph {
+  color: #858593;
 }
