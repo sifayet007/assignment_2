@@ -248,6 +248,80 @@ a:hover {
 .price-paragraph {
   color: #858593;
 }
+/* <!-- =Deals & Discounts section */
+.discounts-content-section {
+  text-align: center;
+  margin-top: 100px;
+}
+.discounts-title {
+  font-size: 4vmin;
+  color: #131318;
+}
+.light-gray {
+  color: #64646f;
+}
+
+.card-container {
+  background-color: #fff7f2cb;
+  padding: 50px;
+  width: 50%;
+  border-radius: 20px;
+}
+.card {
+  background-image: url(Images/Group\ 40.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.card-section {
+  display: flex;
+  gap: 25px;
+}
+.card-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card-title {
+  font-size: 3vmin;
+  color: #000;
+}
+.card-price {
+  color: #ff5400;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+.card-btn {
+  border: none;
+  background-color: #ff5400;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card-btn:hover {
+  font-size: 1.2rem;
+}
+.card-2 {
+  background-image: url(Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.card-container-2 {
+  background-color: #fff7f2cb;
+  padding: 50px;
+  width: 50%;
+  margin-left: auto;
+  border-radius: 20px;
+}
+
 /* responsive section */
 @media (max-width: 576px) {
   .max-width {
