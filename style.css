@@ -392,6 +392,21 @@ a:hover {
   padding: 14px 25px;
   border-radius: 10px;
 }
+/* footer section */
+.footer {
+  justify-content: center;
+}
+.footer-container {
+  background-color: #e7e7e8;
+  text-align: center;
+  padding: 110px;
+  margin-top: 100px;
+}
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 
 /* responsive section */
 @media (max-width: 576px) {
@@ -489,6 +504,11 @@ a:hover {
   }
   .form-container img {
     width: 100%;
+    margin-top: 20px;
+  }
+  /* footer section */
+  .footer-container {
+    padding: 30px;
     margin-top: 20px;
   }
 }
