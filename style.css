@@ -250,4 +250,63 @@ a:hover {
 }
 /* responsive section */
 @media (max-width: 576px) {
+  .max-width {
+    padding: 10px;
+  }
+  /* nav section */
+  .nav-container {
+    display: none;
+  }
+  /* banner section */
+  .banner-container {
+    padding: 24px;
+    margin-top: 0;
+  }
+  .banner-title {
+    font-size: 8vmin;
+  }
+  .banner-input-section {
+    flex-direction: column;
+    width: 80%;
+  }
+  #where-go {
+    width: 90%;
+  }
+  .banner-btn {
+    justify-content: center;
+    align-items: center;
+  }
+  /*  Our Popular Tours section */
+  picture img {
+    width: 100%;
+    margin-top: 15px;
+  }
+  /* Destination section */
+  .place-section-1 {
+    flex-wrap: wrap;
+  }
+
+  .place-section-1 img {
+    width: 100%;
+  }
+  .place-section-2 {
+    flex-direction: column;
+  }
+  .place-section-2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .place-section-3 {
+    flex-wrap: wrap;
+  }
+  .place-section-3 img {
+    width: 100%;
+  }
+  /*   hotel service section */
+  .hotel-service-section {
+    flex-direction: column;
+  }
+  .price-container {
+    width: 80%;
+  }
 }
