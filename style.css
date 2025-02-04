@@ -303,7 +303,7 @@ a:hover {
   transition: 0.3s;
 }
 .card-btn:hover {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .card-2 {
   background-image: url(Images/Group\ 39.png);
@@ -320,6 +320,77 @@ a:hover {
   width: 50%;
   margin-left: auto;
   border-radius: 20px;
+}
+/* simple perfect place section */
+.perfect-place-container {
+  display: flex;
+  gap: 50px;
+}
+.perfect-place-title {
+  font-size: 4.5vmin;
+  margin-bottom: 25px;
+}
+.perfect-place-paragraph {
+  color: #64646f;
+  margin-bottom: 25px;
+}
+.perfect-place-container li {
+  margin-bottom: 25px;
+}
+.place-btn {
+  border: none;
+  background-color: #ff5400;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 10px;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+.place-btn:hover {
+  font-size: 2.2vmin;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form-section {
+  border: 1px solid #ff5400;
+  padding: 40px;
+  border-radius: 20px;
+  height: fit-content;
+}
+.primary-color {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.form-section input {
+  padding: 15px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  background-color: #e7e7e8;
+}
+.Subscribe-btn {
+  border: none;
+  background-color: #ff5400;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.3s;
+}
+.Subscribe-btn:hover {
+  font-size: 2.2vmin;
+}
+.save-up {
+  border: none;
+  background-color: #ff5400;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 10px;
 }
 
 /* responsive section */
@@ -381,6 +452,43 @@ a:hover {
     flex-direction: column;
   }
   .price-container {
-    width: 80%;
+    width: auto;
+  }
+  /* <!-- =Deals & Discounts section */
+  .discounts-content-section {
+    margin-top: 20px;
+  }
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-container {
+    padding: 15px;
+    width: auto;
+  }
+  .card-2 {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .card-container-2 {
+    padding: 15px;
+    width: auto;
+  }
+  /* <!-- simple perfect place section --> */
+  .perfect-place-container {
+    flex-direction: column;
+  }
+  .perfect-place-container img {
+    width: 100%;
+  }
+  /* from section */
+  .form-container {
+    margin-top: 20px;
+  }
+  .form-container img {
+    width: 100%;
+    margin-top: 20px;
   }
 }
