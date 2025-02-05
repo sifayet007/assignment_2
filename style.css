@@ -46,6 +46,10 @@ a:hover {
   font-weight: bold;
   color: #ff5400;
 }
+#menu-bar {
+  display: none;
+}
+
 /* banner section */
 .banner-container {
   background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
@@ -427,16 +431,19 @@ a:hover {
   justify-content: center;
   gap: 15px;
 }
-#menubar {
-  display: none;
-}
 
 /* responsive section */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .max-width {
     padding: 10px;
   }
   /* nav section */
+  #menu-bar {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
   .nav-container {
     margin-top: 20px;
   }
